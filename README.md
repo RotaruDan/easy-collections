@@ -1,0 +1,5 @@
+# Easy Collections
+
+[![Build Status](https://travis-ci.org/e-ucm/easy-collections.svg?branch=master)](https://travis-ci.org/e-ucm/easy-collections) [![Coverage Status](https://coveralls.io/repos/e-ucm/easy-collections/badge.svg?branch=master&service=github)](https://coveralls.io/github/e-ucm/easy-collections?branch=master) [![Dependency Status](https://david-dm.org/e-ucm/easy-collections.svg)](https://david-dm.org/e-ucm/easy-collections) [![devDependency Status](https://david-dm.org/e-ucm/easy-collections/dev-status.svg)](https://david-dm.org/e-ucm/easy-collections#info=devDependencies) [![Code Climate](https://codeclimate.com/github/e-ucm/easy-collections/badges/gpa.svg)](https://codeclimate.com/github/e-ucm/easy-collections) [![Issue Stats](http://issuestats.com/github/e-ucm/easy-collections/badge/pr?style=flat)](http://issuestats.com/github/e-ucm/easy-collections) [![Issue Stats](http://issuestats.com/github/e-ucm/easy-collections/badge/issue?style=flat)](http://issuestats.com/github/e-ucm/easy-collections)
+
+An easy way to manage your MongoDB collections.
