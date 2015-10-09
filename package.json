@@ -9,13 +9,15 @@
     "devDependencies": {
         "coveralls": "*",
         "istanbul": "*",
+        "jscs": "*",
         "jshint": "*",
         "nodeunit": "0.9.x"
     },
     "name": "easy-collections",
     "preferGlobal": "false",
     "scripts": {
-        "lint": "jshint --verbose .",
+        "jscs-fix": "./node_modules/jscs/bin/jscs . --fix",
+        "lint": "jshint --verbose . && npm run jscs-fix",
         "test": "nodeunit test/",
         "test-travis": "npm run lint && ./node_modules/istanbul/lib/cli.js cover ./node_modules/nodeunit/bin/nodeunit test/"
     },

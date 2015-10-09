@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var Collection = require('../lib/collection');
 
@@ -37,7 +37,7 @@ module.exports = {
                 });
         }).then(function () {
             return games.findAndModify(id, {
-                'title': 'Other title'
+                title: 'Other title'
             }).then(function (result) {
                 test.ok(result);
             });
